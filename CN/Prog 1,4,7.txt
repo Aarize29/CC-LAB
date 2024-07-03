@@ -1,0 +1,64 @@
+PROG 1,4,7
+
+
+1
+Download jdk 
+Enter in chrome:-http://cloudbus.org/cloudsim/CloudAnalyst.zip
+And extract it to desktop 
+Go to cloud analyt 
+Configuration simulation 
+Open :-run.bat
+Use 4 user base
+ Vms -50 memory -1024 bw-100
+Save configuration stimulation 
+Run stimulation 
+Filename
+
+
+4
+Download google app engine 
+Download python 2.7
+Create on folder Google app engine 
+Edit- preference - select and put into python path- python url-
+Go to file - other directory - select file which is created in desktop 
+Run the program 
+Local host 8080
+
+
+7
+Go to Hadoop - terminal 
+StartCDH.sh
+Jps
+StopCDH.sh
+ Go to firebox- Hadoop manage-  name node-browse file system - user- Hadoop
+
+ hdfs  dfs -mkdir jeev
+Vi  textfile.txt
+Nano sample.txt
+Crt o enter crt x
+Hdfs dfs -put sample.txt/user/Hadoop/Ramya
+
+Hdfs dfs -get /user/Hadoop/Ramya/sample.txt
+Hdfs dfs -cat /user/Hadoop/Ramya/sample.txt
+Hdfs dfs -rm
+
+
+(su - hadoopuser
+
+
+start-all.sh
+
+jps
+
+hdfs dfs -mkdir /user/manas
+
+nano sample.txt (add something and close the file (Ctrl+s, Ctrl+x)
+
+
+hdfs dfs -put sample.txt /user/manas/
+
+hdfs dfs -get /user/manas/sample.txt
+
+hdfs dfs -cat /user/manas/sample.txt
+
+hdfs dfs -rm /user/manas/sample.txt)

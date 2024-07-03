@@ -1,0 +1,51 @@
+PROG 2
+
+step 1
+in terminal type
+
+cd Desktop
+touch prog.c
+
+step 2
+go to the file and paste this code and save it
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char data[1024];
+    
+    // Open a file in write mode. Simulating cloud storage by using a local file.
+    FILE *fptr = fopen("cloud_storage.txt", "w");
+    if (fptr == NULL) {
+        printf("Error opening the file!\n");
+        exit(EXIT_FAILURE);
+    }
+
+    // Get user input
+    printf("Enter text to store in the cloud: ");
+    fgets(data, sizeof(data), stdin);
+
+    // Write data to the file
+    fprintf(fptr, "%s", data);
+
+    // Close the file
+    fclose(fptr);
+    printf("Data successfully saved to 'cloud_storage.txt'\n");
+
+    return 0;
+}
+
+step 3
+go back to terminal and type
+
+gcc prog.c -o test
+
+step 4
+./test
+
+step 5 
+enter some text
+
+
+
