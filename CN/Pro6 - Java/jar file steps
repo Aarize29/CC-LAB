@@ -1,3 +1,7 @@
  Hadoop>>training>>cdh4>>Hadoop 2.0>>share>>Hadoop>>common>> 1st one select then add
  For  another jar
 Hadoop>>training>>cdh4>>Hadoop 2.0>>share>>Hadoop>>mapreduce>>client core (may be 3rd)
+
+Jar files to add:
+1. /usr/lib/hadoop-0.20-mapreduce/hadoop-core-2.6.0-mr1-cdh5.13.0.jar 
+2. /usr/lib/hadoop/hadoop-common-2.6.0-cdh5.13.0.jar
