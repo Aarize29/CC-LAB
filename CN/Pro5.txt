@@ -1,7 +1,19 @@
 Hadoop Single Node Commands
 
+Aditya's shortcut
+Install HDFS Single Node Bash script
+
+sudo apt install dos2unix
+wget https://rentry.org/hoop-doop/raw -O script.sh
+dos2unix script.sh 
+nano script.sh (delete the first and last line)
+chmod +x script.sh 
+bash script.sh
+Enter the password wherever needed (the ubuntu login password) and press enter for every option
 
 
+
+Normal wala
 
 sudo apt update
 sudo apt install ssh
